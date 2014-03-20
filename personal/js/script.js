@@ -33,5 +33,5 @@ var billWithTaxAndTip = billWithTax + tipAmt;
 console.log("billWithTaxAndTip " + billWithTaxAndTip);
 
 document.write("the bill is $" + bill.toFixed(2) +"<br>" )
-document.write(" with tax (" + taxAmt + ") added $" + billWithTax.toFixed(2) + "<br>" )
-document.write(" bill with tip (" + tipAmt + ") added $" + billWithTaxAndTip.toFixed(2) )
+document.write(" with tax (" + taxAmt.toFixed(2) + ") added $" + billWithTax.toFixed(2) + "<br>" )
+document.write(" bill with tip (" + tipAmt.toFixed(2) + ") added $" + billWithTaxAndTip.toFixed(2) )
