@@ -10,9 +10,18 @@ var gallonPrice = prompt("How much does a gallon cost?");
 var carWash = prompt("would you like a car wash? Yes or No");
 
 // cost of  gas for your car
+var bCarWash = carWash == "Yes" ? true : false;
+var nCarWashCost = 8.00;
+var nTotalCost = gallons * gallonPrice;
 
-var gasCost = gallons * gallonPrice;
-var carWashYes = gasCost + 8;
+console.log(nTotalCost);
 
-if(carWash == "yes") ? document.write("The price for your gas and wash is " + carwWashYes) : document.write("The price for your gas is" + gasCost)
+if (bCarWash)
+	nTotalCost += nCarWashCost;
+
+console.log(nTotalCost);
+
+var sMessage = bCarWash ? "The price for your gas and wash is " : "The price for your gas is ";
+
+document.write( sMessage + nTotalCost);
 
