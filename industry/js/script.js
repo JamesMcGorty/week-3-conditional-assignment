@@ -11,8 +11,18 @@ var screenRezWidth = prompt("Please enter your screen width resolution ");
 var screenSizHeight = prompt("Please enter how many inches you screens height is ");
 var screenSizWidth = prompt("Please enter how many inches your screens width is ");
 
+if (screenRezHeight < 0)
+	screenRezHeight *= -1;
+if (screenRezWidth < 0)
+	screenRezWidth *= -1;
+if (screenSizHeight < 0)
+	screenSizHeight *= -1;
+if (screenSizWidth < 0)
+	screenSizWidth *= -1;
+	
+		
 var height = screenRezHeight / screenSizHeight;
 var width = screenRezWidth / screenSizWidth;
 var howMany = height * width
 
-document.write("Your screen has " + howMany "pixels in an inch");
+document.write("Your screen has " + howMany + "pixels in an inch");
