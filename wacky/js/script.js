@@ -14,5 +14,5 @@ var carWash = prompt("would you like a car wash? Yes or No");
 var gasCost = gallons * gallonPrice;
 var carWashYes = gasCost + 8;
 
-if(carWash == "yes") ? document.write("The price for your gas and wash is " + carwWashYes) : 
+if(carWash == "yes") ? document.write("The price for your gas and wash is " + carwWashYes) : document.write("The price for your gas is" + gasCost)
 
