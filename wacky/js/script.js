@@ -3,7 +3,7 @@
 //3/20/14
 //conditions wacky 
 
-//getting gas and if you want a car wash
+//how much it will cost getting gas and if you want a car wash
 
 var gallons = prompt("How many gallons will you pump?");
 var gallonPrice = prompt("How much does a gallon cost?");
