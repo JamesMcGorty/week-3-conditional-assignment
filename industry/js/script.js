@@ -15,4 +15,4 @@ var height = screenRezHeight / screenSizHeight;
 var width = screenRezWidth / screenSizWidth;
 var howMany = height * width
 
-document.write("Your screen has " + howMany);
+document.write("Your screen has " + howMany "pixels in an inch");
