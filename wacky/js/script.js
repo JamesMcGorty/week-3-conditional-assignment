@@ -21,7 +21,7 @@ if (bCarWash)
 
 console.log(nTotalCost);
 
-var sMessage = bCarWash ? "The price for your gas and wash is " : "The price for your gas is ";
+var sMessage = bCarWash ? "The price for your gas and wash is $" : "The price for your gas is $";
 
 document.write( sMessage + nTotalCost);
 
